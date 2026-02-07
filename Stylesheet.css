@@ -1,0 +1,60 @@
+body {
+  widows: 1;
+  orphans: 1;
+  margin: 0;
+  padding: 0;
+  display: block;
+  font-size: 1em;
+  -epub-hyphens: none;
+  -webkit-hyphens: none;
+  hyphens: none;
+}
+h1, h2, h3 {
+  display: block;
+  font-weight: bold;
+}
+p {
+  padding: 0;
+  margin: 0;
+}
+h1, h2 {
+  text-align: center;
+}
+h1 {
+  font-size: 1.5em;
+  margin: 0 0 0.5em 0;
+}
+h2 {
+  font-size: 1.35em;
+  margin: 0 0 0.75em 0;
+}
+h3 {
+  font-size: 1.25em;
+  margin: 0 0 0.3em 0;
+  text-align: center;
+  page-break-before: always;
+}
+.li {
+  margin: 0.5em 0;
+}
+.in {
+  page-break-before: always;
+  margin: 1em;
+  padding: 1.5em;
+  font-size: 0.935em;
+  background-color: #f0f0f0;
+}
+.in1 {
+  font-size: 0.935em;
+  margin: 1em 2em;
+  padding: 0.5 1em;
+  border: 0.15em solid gray;
+}
+.in1 .li {
+  margin: 1.25em 0;
+}
+
+
+<h1>.+?</h1>
+
+•
